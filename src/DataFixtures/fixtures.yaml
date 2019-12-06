@@ -1,0 +1,22 @@
+App\Entity\Autheur:
+  author_{1..5}:
+    firstname: '<firstname()>'
+    lastname: '<lastname()>'
+    email: '<email()>'
+
+App\Entity\Categorie:
+  categorie_{1..5}:
+    name: 'categorie_<current()>'
+
+App\Entity\Article:
+  article{1..10}:
+    name: '<word()>'
+    description: '<text()>'
+    author: '@author_*'
+    categorie: '@categorie_*'
+
+App\Entity\User:
+  user{1..5}:
+    username: '<firstname()>'
+    email: '<email()>'
+    password: 'admin'
