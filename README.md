@@ -15,5 +15,9 @@ Now get the token user with this call in postman **http://localhost:8000/api/log
 then you can call all api urls with get, post, put and delete methods:
 
 **http://localhost:8000/api/articles**
+
 **http://localhost:8000/api/autheurs**
+
 **http://localhost:8000/api/categories**
+
+in **http://localhost:8000/administration** you found administration page with **easyAdmin bundle**
