@@ -1,0 +1,11 @@
+easy_admin:
+    site_name: '<b>Gestion des articles</b>'
+    design:
+        menu: ['Article', 'Categorie', 'Autheur']
+    entities:
+        Article:
+            class: App\Entity\Article
+        Categorie:
+            class: App\Entity\Categorie
+        Autheur:
+            class: App\Entity\Autheur
